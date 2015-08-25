@@ -81,7 +81,7 @@ public class MainActivity extends ActionBarActivity implements
                 );
                 dpd.setThemeDark(modeDarkDate.isChecked());
                 dpd.vibrate(vibrateDate.isChecked());
-                dpd.show(getFragmentManager(), "Datepickerdialog");
+                dpd.show(getSupportFragmentManager(), "Datepickerdialog");
             }
         });
     }
